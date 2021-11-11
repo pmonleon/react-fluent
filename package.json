@@ -1,0 +1,42 @@
+{
+  "name": "fluent-react-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel serve public/index.html",
+    "build": "parcel build public/index.html",
+    "dev": "react-scripts start"
+  },
+  "dependencies": {
+    "@fluent/bundle": "^0.17.0",
+    "@fluent/langneg": "^0.6.0",
+    "@fluent/react": "^0.14.0",
+    "@fluent/sequence": "^0.7.0",
+    "cached-iterable": "^0.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "parcel-bundler": "1.12.x",
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "browsers": "Firefox >= 57"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

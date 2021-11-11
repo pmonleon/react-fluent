@@ -1,0 +1,4 @@
+.cache
+dist
+*.tgz
+node_modules
